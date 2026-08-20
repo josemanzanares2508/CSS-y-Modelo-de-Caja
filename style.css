@@ -1,0 +1,26 @@
+/* Estilos generales */
+body {
+    background-color: rgb(252, 252, 252);
+    font-family: Arial, sans-serif;
+}
+
+/* Diseño de la tarjeta */
+.tarjeta-pokemon {
+    background-color: rgba(250, 246, 29, 0.644);
+    color: rgb(23, 23, 23);
+    width: 300px; /* Error: falta la unidad de medida *//*faltaba la medida px*/
+    margin: 20px;
+
+    /* El borde no funciona y el practicante no sabe por qué */
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+
+    /* Falta agregar espacio interior para que el texto no choque */
+}
+
+.tipo {
+    font-weight: bold;
+    text-align: center /* Error: valor inválido en CSS */
+}
